@@ -34,8 +34,8 @@ aside {
     margin: 1rem;
     border: 1px solid darkblue;
     padding: 1rem;
-    background-color: skyblue;
-    color: #555;
+    background-color: rgb(170, 224, 279);
+    color: #000;
     text-align: center;
 
 }
