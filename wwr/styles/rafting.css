@@ -44,6 +44,13 @@ nav, p, section, article {
 .hero {
     position: relative;
 }
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 1rem;
+}
 .hero img{
     display: block;
     width: 100%;
@@ -51,7 +58,7 @@ nav, p, section, article {
 }
 h1 {
     position: absolute;
-    top: 200px;
+    top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
