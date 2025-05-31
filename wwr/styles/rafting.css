@@ -43,7 +43,7 @@
   header h1 {
     font-family: var(--heading-font);
     font-size: 2rem;
-    color: var(--accent2-color);
+    color: black;
     text-align: center;
   }
   
@@ -123,6 +123,7 @@
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
+    color: black;
 
   }
   .history-content img {
@@ -154,7 +155,7 @@
     align-items: center;
     background-color: var(--primary-color);
     padding: 1rem;
-    color: var(--accent2-color);
+    color: black;
   }
   
   .socialmedia {
