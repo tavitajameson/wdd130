@@ -32,10 +32,11 @@
     gap: 1rem;
     background-color: var(--primary-color);
     padding: 1rem;
+    border-bottom: 1px;
   }
   
   header img {
-    grid-row: span 2;
+    grid-row: span1;
     height: 80px;
   }
   
@@ -46,7 +47,9 @@
   }
   
   nav ul {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    -ms-grid-column-span: calc();
     list-style: none;
     gap: 1rem;
     padding: 0;
@@ -108,9 +111,11 @@
   .history-content {
     background-color: var(--secondary-color);
     padding: 1rem;
-    display: grid;
-    grid-template-columns: repeat(minmax(25% 1fr));
-    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+
   }
   .history-content img {
     width: 25%;
