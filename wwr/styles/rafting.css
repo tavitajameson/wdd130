@@ -258,3 +258,12 @@ border: none;
   font-weight: bold;
   color: var(--accent1-color);
 }
+.contact-form label {
+  display: block;
+  margin-top: 1rem;
+}
+
+.contact-form input[type="radio"],
+.contact-form input[type="checkbox"] {
+  margin-right: 0.5rem;
+}

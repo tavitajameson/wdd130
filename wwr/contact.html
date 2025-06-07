@@ -62,23 +62,56 @@
   
     <section class="contact-form">
       <h2>Send Us a Message</h2>
-      <form>
+      <form id="contact-form">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
-  
+    
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
-  
+    
         <p>Purpose:</p>
-        <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
-        <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-        <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
-  
+        <label for="purpose-general">
+          <input type="radio" id="purpose-general" name="purpose" value="general" required>
+          General Inquiry
+        </label>
+        <label for="purpose-reservation">
+          <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+          Reservation Question
+        </label>
+        <label for="purpose-suggestion">
+          <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion">
+          Website Suggestion
+        </label>
+        <label for="purpose-career">
+          <input type="radio" id="purpose-career" name="purpose" value="career">
+          Career Opportunity
+        </label>
+    
         <label for="message">Message:</label>
         <textarea id="message" name="message" rows="4"></textarea>
-  
-        <label><input type="checkbox" name="newsletter"> Please subscribe me to the monthly newsletter</label>
-  
+    
+        <label for="newsletter">
+          <input type="checkbox" id="newsletter" name="newsletter">
+          Please subscribe me to the monthly newsletter
+        </label>
+        <label for="agree">
+          <input type="checkbox" id="agree" name="agree" required>
+          I agree to the terms and conditions
+        </label>
+        <label for="phone">Phone Number (Optional):</label>
+        <input type="tel" id="phone" name="phone" placeholder="e.g., (555) 123-4567">
+        <label for="preferred-contact">Preferred Contact Method:</label>
+        <select id="preferred-contact" name="preferred-contact">
+          <option value="">--Please choose an option--</option>
+          <option value="email">Email</option>
+          <option value="phone">Phone</option>
+        </select>
+        <label for="urgency">Is this urgent?</label>
+        <select id="urgency" name="urgency">
+          <option value="">--Select urgency--</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
         <button type="submit">Send Message</button>
       </form>
     </section>
