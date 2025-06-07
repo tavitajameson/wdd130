@@ -163,8 +163,7 @@ footer {
 .socialmedia {
   display: flex;
   justify-content: flex-end;
-  align-items: right;
-  gap: 0 auto;
+  align-items: center;
 }
 
 .socialmedia a {
