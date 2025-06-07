@@ -65,10 +65,8 @@
       <form id="contact-form">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
-    
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
-    
         <p>Purpose:</p>
         <label for="purpose-general">
           <input type="radio" id="purpose-general" name="purpose" value="general" required>
@@ -86,10 +84,8 @@
           <input type="radio" id="purpose-career" name="purpose" value="career">
           Career Opportunity
         </label>
-    
         <label for="message">Message:</label>
         <textarea id="message" name="message" rows="4"></textarea>
-    
         <label for="newsletter">
           <input type="checkbox" id="newsletter" name="newsletter">
           Please subscribe me to the monthly newsletter
@@ -112,7 +108,8 @@
           <option value="yes">Yes</option>
           <option value="no">No</option>
         </select>
-        <button type="submit">Send Message</button>
+    
+        <button type="submit" id="submit-button">Send Message</button>
       </form>
     </section>
     
